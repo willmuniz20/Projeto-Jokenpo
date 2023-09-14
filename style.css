@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+
+}
+
+
+.principal {
+    background-image: url(netflix.jpeg);
+    padding-bottom: 270px;
+}
+
+.div-header {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.open {
+    background-color: red;
+    border: none;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: aliceblue;
+    border-radius: 3px;
+
+}
+
+.open:hover {
+    opacity: 0.5;
+}
+
+.conteiner {
+    text-align: center;
+    margin-top: 90px;
+
+
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.Circle {
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.circulo {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.input {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+input {
+    padding: 10px;
+    width: 25%;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+}
+
+.button-over {
+
+    padding: 7px 24px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+    height: 50px;
+}
+
+#img {
+    width: 7px;
+
+}
+
+.div-Frequent {
+    border-top: 2px solid #303030;
+    background-color: black;
+    text-align: center;
+    height: 60vh;
+
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.button-pergunta {
+    width: 600px;
+    background-color: #303030;
+    text-align: left;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.xis {
+    float: right;
+    margin-top: 5px;
+
+}
+
+.div-paragrafo {
+    width: 600px;
+    background-color: #303030;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1px;
+    font-size: 17px;
+    text-align: left;
+    padding: 15px;
+}
